@@ -3,5 +3,5 @@ EXPOSE 3000
 WORKDIR /app/front-end
 ADD node_modules.tar.gz .
 COPY . .
-ENTRYPOINT [ "npm" ]
+ENTRYPOINT ["npm"]
 CMD ["start"]
